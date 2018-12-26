@@ -1,0 +1,36 @@
+{
+  "name": "logo_writer",
+  "version": "1.0.0",
+  "description": "This is a simple web-based environment where you can program a “turtle” to draw pictures (a concept popularized by LOGO programming language).",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "react-dev": "webpack -d --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jennthh/logo_writer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jennthh/logo_writer/issues"
+  },
+  "homepage": "https://github.com/jennthh/logo_writer#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "css-loader": "^2.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.28.2",
+    "webpack-cli": "^3.1.2"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
+  }
+}
